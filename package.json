@@ -1,0 +1,25 @@
+{
+  "name": "ase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha --require ts-node/register '**/test/index.test.ts'"
+  },
+  "author": "Martin Braun",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "^4.1.1",
+    "@types/lodash": "4.14.107",
+    "@types/mocha": "^9.1.1",
+    "@types/node": "^18.11.5",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}

@@ -1,0 +1,42 @@
+import {DescriptorInfoBlockFactory} from "./DescriptorInfoBlock";
+import {doub} from "./doub";
+import {_enum} from "./enum";
+import {GlbC} from "./GlbC";
+import {GlbO} from "./GlbO";
+import {long} from "./long";
+import {ObAr} from "./ObAr";
+import {_obj} from "./obj";
+import {Objc} from "./Objc";
+import {prop} from "./prop";
+import {rele} from "./rele";
+import {tdta} from "./tdta";
+import {TEXT} from "./TEXT";
+import {type} from "./type";
+import {UnFl} from "./UnFl";
+import {UntF} from "./UntF";
+import {VlLs} from "./VlLs";
+import {bool} from "./bool";
+import {alis} from "./alis";
+import {Enmr} from "./Enmr";
+
+export function registerDescriptorInfoBlocks() {
+  DescriptorInfoBlockFactory.registerType("alis", alis);
+  DescriptorInfoBlockFactory.registerType("bool", bool);
+  DescriptorInfoBlockFactory.registerType("doub" , doub);
+  DescriptorInfoBlockFactory.registerType("enum" , _enum);
+  DescriptorInfoBlockFactory.registerType("GlbC" , GlbC);
+  DescriptorInfoBlockFactory.registerType("GlbO" , GlbO);
+  DescriptorInfoBlockFactory.registerType("long" , long);
+  DescriptorInfoBlockFactory.registerType("ObAr" , ObAr);
+  DescriptorInfoBlockFactory.registerType("obj " , _obj);
+  DescriptorInfoBlockFactory.registerType("Objc" , Objc);
+  DescriptorInfoBlockFactory.registerType("prop" , prop);
+  DescriptorInfoBlockFactory.registerType("rele" , rele);
+  DescriptorInfoBlockFactory.registerType("tdta" , tdta);
+  DescriptorInfoBlockFactory.registerType("TEXT" , TEXT);
+  DescriptorInfoBlockFactory.registerType("type" , type);
+  DescriptorInfoBlockFactory.registerType("UnFl" , UnFl);
+  DescriptorInfoBlockFactory.registerType("UntF" , UntF);
+  DescriptorInfoBlockFactory.registerType("VlLs" , VlLs);
+  DescriptorInfoBlockFactory.registerType("Enmr", Enmr);
+}
